@@ -11,7 +11,7 @@
     ],
     "routes": [
       {
-        "src": "/(.https://vercel-pink-nu.vercel.app/heroes/)",
+        "src": "/(.*)",
         "dest": "server.js"
       }
     ]
