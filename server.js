@@ -11,7 +11,7 @@ server.use(jsonServer.rewriter({
     '/blog/:resource/:id/show': '/:resource/:id'
 }))
 server.use(router)
-server.listen(4000, () => {
+server.listen('https://vercel-pink-nu.vercel.app/heroes/', () => {
     console.log('JSON Server is running')
 })
 
